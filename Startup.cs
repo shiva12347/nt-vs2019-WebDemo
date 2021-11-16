@@ -33,6 +33,7 @@ namespace nt_vs2019_WebDemo
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello pavani");
+                     await context.Response.WriteAsync("1at edit by shiva");
                 });
             });
         }
